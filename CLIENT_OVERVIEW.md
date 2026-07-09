@@ -217,7 +217,7 @@ Failure  →  Credit refunded, user can retry
 
 ## Key Selling Points
 
-1. **Dual-channel reach.** The website suits power users. WhatsApp suits mobile-first, conversational audiences, which makes it a strong fit for carrier partnerships like MTN.
+1. **Dual-channel reach.** The website suits power users. WhatsApp suits mobile-first, conversational audiences.
 
 2. **Guided WhatsApp journey.** Non-technical users can get started easily without typing long prompts.
 
