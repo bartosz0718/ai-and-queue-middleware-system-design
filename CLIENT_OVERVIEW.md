@@ -15,7 +15,7 @@ The platform works on **two channels**:
 | Channel | Best for |
 |---------|----------|
 | **Website** | Users who want a full studio-style experience with a personal song library |
-| **WhatsApp** | Mobile-first users who prefer a conversational, guided experience (branded as **MTN MusicStudio**) |
+| **WhatsApp** | Mobile-first users who prefer a conversational, guided experience |
 
 Both channels share the same account, credits, and song history.
 
@@ -58,9 +58,10 @@ Birthday → Afrobeats → For my wife → Love → English → *"Afrobeats love
 ### What the user receives
 
 - A **complete audio track** (MP3)
+- The **song lyrics** that go with the track
 - **Cover artwork** (when available)
 - A **title** and saved description in their personal library
-- On WhatsApp: the cover image and audio file sent in the chat
+- On WhatsApp: the cover image, audio file, and lyrics sent in the chat
 
 ### Step-by-step journey
 
