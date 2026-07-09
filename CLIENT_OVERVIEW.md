@@ -1,14 +1,14 @@
-# SmartVibe Platform Overview
+# AI Music Studio Platform Overview
 
 *A client-friendly guide to how the platform works*
 
 ---
 
-## What Is SmartVibe?
+## What Is AI Music Studio?
 
-SmartVibe is an **AI-powered music creation platform** that turns a simple idea into a finished song in about **4 minutes**.
+AI Music Studio is an **AI-powered music creation platform** that turns a simple idea into a finished song in about **4 minutes**.
 
-Users describe what they want — a mood, genre, occasion, or message — and the platform creates a complete track with audio (and cover artwork when available). No musical skills are required.
+Users describe what they want, whether that is a mood, genre, occasion, or message. The platform then creates a complete track with audio and cover artwork when available. No musical skills are required.
 
 The platform works on **two channels**:
 
@@ -25,7 +25,7 @@ Both channels share the same account, credits, and song history.
 
 ### On the website
 
-1. User visits the SmartVibe homepage.
+1. User visits the AI Music Studio homepage.
 2. They **sign up** with email and password.
 3. New accounts receive **5 free credits** (1 credit = 1 song).
 4. They describe their song and tap **Generate**.
@@ -35,7 +35,7 @@ Both channels share the same account, credits, and song history.
 
 1. User taps **Chat on WhatsApp** on the website.
 2. They **verify their phone number** with a one-time code sent via WhatsApp.
-3. Once verified, they open a chat with the SmartVibe business number.
+3. Once verified, they open a chat with the AI Music Studio business number.
 4. A guided conversation walks them through choices (topic, style, recipient, occasion, language).
 5. They confirm, and the song is created and **delivered directly in the chat** as audio.
 
@@ -43,11 +43,11 @@ Both channels share the same account, credits, and song history.
 
 ---
 
-## Part 1: AI Music Generation — The User Experience
+## Part 1: AI Music Generation (The User Experience)
 
 ### What the user does
 
-The user provides a **creative brief in plain language**. They never need to know chords, BPM, or production terms.
+The user describes their song idea in everyday language. They never need to know chords, tempo, or production terms.
 
 **Website example:**  
 *"A dreamy synthwave track with retro drums and a nostalgic feel"*
@@ -78,9 +78,9 @@ Describe the song  →  Request accepted  →  Song is created  →  Listen & en
 
 ### Progress updates on WhatsApp
 
-During creation, users receive friendly status messages at key moments — for example around 1, 2, and 3 minutes — so they always know their song is on the way.
+While the song is being made, users get friendly status messages at key moments. For example, they might hear from us around the 1, 2, and 3 minute marks so they always know their song is on the way.
 
-### Credits — simple and fair
+### Credits: simple and fair
 
 | Rule | Detail |
 |------|--------|
@@ -88,36 +88,36 @@ During creation, users receive friendly status messages at key moments — for e
 | Cost per song | **1 credit** |
 | When charged | Only when the song **succeeds** |
 | If it fails | Credit is **automatically refunded** |
-| Remix (WhatsApp) | Returning users can tweak a previous song (funnier, different genre, shorter) — same 1-credit cost |
+| Remix (WhatsApp) | Returning users can tweak a previous song (funnier, different genre, shorter) for the same 1-credit cost |
 
 ### Returning WhatsApp users
 
 When a user comes back, they see a preview of their last song and can choose:
 
-- **Remix it** — adjust the previous creation
-- **Create new** — start a fresh song
+- **Remix it** to adjust the previous creation
+- **Create new** to start a fresh song
 
 ---
 
-## Part 2: The Smart Processing Layer — Built for High Traffic
+## Part 2: The Smart Processing Layer (Built for High Traffic)
 
-This is the **core engine** that keeps SmartVibe stable even when many users request songs at the same time. Think of it as an intelligent **middle layer** between your users and the AI music provider — it manages demand, protects credits, and ensures no request is lost.
+This is the **core engine** that keeps AI Music Studio stable even when many users request songs at the same time. Think of it as a smart **middle layer** between your users and the AI music provider. It manages demand, protects credits, and makes sure no request is lost.
 
 ### The challenge
 
-AI music creation depends on a **limited pool of generation capacity** (connections to the music provider). During peak times — promotions, viral moments, or busy evenings — not every song can start immediately.
+AI music creation depends on a **limited pool of generation capacity** (connections to the music provider). During peak times, such as promotions, viral moments, or busy evenings, not every song can start right away.
 
 Without a proper system, platforms either:
 
 - **Crash or reject users** during busy periods, or
 - **Lose requests** and charge users for songs that never arrive.
 
-SmartVibe solves this with a **database-backed queue and processing system** designed for reliability at scale.
+AI Music Studio solves this with a **database-backed queue and processing system** designed for reliability at scale.
 
 ### How it works (in plain terms)
 
 ```
-                    ┌─────────────────────────┐
+                      ┌─────────────────────────┐
    Users              │                         │
    (Web + WhatsApp) ─►│   Smart Request Queue   │  ← Every request is saved
                       │   (first in, first out) │
@@ -159,7 +159,7 @@ A background process runs on a schedule to:
 - Free up slots so the queue keeps moving
 
 **7. Duplicate protection**  
-WhatsApp messages are processed only once, so users are never charged twice for the same request — even if the network sends the same message multiple times.
+WhatsApp messages are processed only once, so users are never charged twice for the same request. This holds true even if the network sends the same message multiple times.
 
 ### Why this matters for your business
 
@@ -170,11 +170,11 @@ WhatsApp messages are processed only once, so users are never charged twice for 
 | **Fair user experience** | First come, first served; clear wait messages |
 | **Credit integrity** | Users only pay for successful songs |
 | **Self-healing** | Stuck jobs are recovered automatically; slots are freed for the next user |
-| **Single pipeline** | Web and WhatsApp share one queue — consistent behavior everywhere |
+| **Single pipeline** | Web and WhatsApp share one queue, so behavior stays consistent everywhere |
 
 ### Scaling capacity
 
-Peak throughput depends on how many **generation slots** (provider connections) are provisioned. The queue absorbs demand above that capacity — users wait with clear communication instead of being turned away.
+Peak throughput depends on how many **generation slots** (provider connections) are provisioned. The queue absorbs demand above that capacity. Users wait with clear communication instead of being turned away.
 
 ---
 
@@ -216,17 +216,17 @@ Failure  →  Credit refunded, user can retry
 
 ## Key Selling Points
 
-1. **Dual-channel reach** — Web for power users; WhatsApp for mobile-first, conversational audiences (ideal for carrier partnerships like MTN).
+1. **Dual-channel reach.** The website suits power users. WhatsApp suits mobile-first, conversational audiences, which makes it a strong fit for carrier partnerships like MTN.
 
-2. **Guided WhatsApp journey** — Low friction for non-technical users; no typing long prompts required.
+2. **Guided WhatsApp journey.** Non-technical users can get started easily without typing long prompts.
 
-3. **Production-ready under load** — Queue-based processing layer built for real traffic, not just demos.
+3. **Production-ready under load.** The queue-based processing layer is built for real traffic, not just demos.
 
-4. **Fair credit model** — Reserve on submit, charge on success, refund on failure.
+4. **Fair credit model.** Credits are reserved on submit, charged on success, and refunded on failure.
 
-5. **Engagement loops** — Remix and "create new" flows bring users back on WhatsApp.
+5. **Engagement loops.** Remix and "create new" flows bring users back on WhatsApp.
 
-6. **Unified platform** — One account, one credit balance, one song history across web and WhatsApp.
+6. **Unified platform.** One account, one credit balance, and one song history across web and WhatsApp.
 
 ---
 
@@ -252,4 +252,4 @@ Failure  →  Credit refunded, user can retry
 
 ## One-Line Summary
 
-**SmartVibe turns anyone's idea into a personalized AI song in minutes — on the web or WhatsApp — with a queue-based processing engine that keeps the platform reliable even when demand is high.**
+**AI Music Studio turns anyone's idea into a personalized AI song in minutes, on the web or WhatsApp, with a queue-based processing engine that keeps the platform reliable even when demand is high.**
