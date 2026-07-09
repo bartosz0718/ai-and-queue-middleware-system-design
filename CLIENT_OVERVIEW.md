@@ -102,6 +102,8 @@ When a user comes back, they see a preview of their last song and can choose:
 
 ## Part 2: The Smart Processing Layer (Built for High Traffic)
 
+<img width="1379" height="856" alt="image" src="https://github.com/user-attachments/assets/104b4cb8-0612-473b-b32c-7059b91303c8" />
+
 This is the **core engine** that keeps AI Music Studio stable even when many users request songs at the same time. Think of it as a smart **middle layer** between your users and the AI music provider. It manages demand, protects credits, and makes sure no request is lost.
 
 ### The challenge
